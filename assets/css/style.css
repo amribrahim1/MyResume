@@ -883,8 +883,8 @@ section {
 
 .services .icon-box .icon>svg {
   position: absolute;
-  top: 0;
-  left: 0;
+  /* top: 0;
+  left: 0; */
 }
 
 .services .icon-box .icon>svg path {
@@ -925,38 +925,40 @@ section {
   color: #47aeff;
 }
 
-.services .iconbox-blue:hover .icon .udacity, .services .iconbox-blue:hover .icon .coursera, .services .iconbox-blue:hover .icon .mahara, .services .iconbox-blue:hover .icon .udemy {
+/* .services .iconbox-blue:hover .icon .udacity, .services .iconbox-blue:hover .icon .coursera, .services .iconbox-blue:hover .icon .mahara, .services .iconbox-tomato:hover .icon .udemy {
   color: #fff !important;
-}
+} */
+.services .iconbox-blue:hover .icon .udacity path,
+.services .iconbox-dark-blue:hover .icon .coursera path,
+.services .iconbox-tomato:hover .icon .udemy path,
+.services .iconbox-edx:hover .icon .edx path
+  {
+    fill: #fff !important;
+  }
+
 .services .iconbox-blue:hover .icon path {
   fill: #47aeff;
-}
-.services .iconbox-blue:hover .icon .udacity path {
-  fill: #fff !important;
 }
 
 .services .iconbox-dark-blue:hover .icon path {
   fill:#3b72b9;
 }
-.services .iconbox-dark-blue:hover .icon .coursera path {
-  fill: #fff !important;
-}
 
 .services .iconbox-tomato:hover .icon path {
   fill:#eb524f;
-}
-.services .iconbox-tomato:hover .icon .udemy path {
-  fill: #fff !important;
 }
 
 .services .iconbox-burgundy:hover .icon path {
   fill:#8d1f28;
 }
+.services .iconbox-edx:hover .icon path {
+  fill: #00262b;
+}
 .services .iconbox-burgundy:hover .icon .mahara {
   filter: brightness(0) invert(1) !important;
 }
-
-.services .iconbox-orange .udacity {
+/*
+.services .iconbox-orange i {
   color: #ffa76e;
 }
 
@@ -1015,5 +1017,5 @@ section {
 .services .iconbox-teal:hover .icon path {
   fill: #11dbcf;
 }
-
+*/
 /*--------------------------------------------------------------*/
